@@ -517,7 +517,7 @@ int playing(char game[lenght][lenght], char hide[lenght][lenght], State state[le
     
     int rowInput = 0;
     int colInput = 0;
-    int nbrBomb = 800;
+    int nbrBomb = 150;
 
     
 
