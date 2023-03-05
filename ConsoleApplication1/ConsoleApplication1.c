@@ -210,7 +210,6 @@ void wherePlay(int* rowInput, int* colInput) {
     do {
         printf("Sur quel ligne voulez-vous jouer ?\n");
         error = scanf_s("%d", rowInput);
-        printf("%d", error);
         if (error != 0 && *rowInput < lenght) {
             printf("%s %d\n", "Vous avez choisi de jouer a la ligne", *rowInput);
         }
